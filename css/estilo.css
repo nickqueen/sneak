@@ -1,7 +1,7 @@
 /*geral*/
 body {
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     width: 1600px;
     height: 92px;
     left: 0px;
@@ -18,13 +18,11 @@ ul {
 ul a {
     text-decoration: none;
     color: #1F1F1F;
-    font-weight: 900;
 }
     
 /*header*/
 
 .header {
-    background-color: coral;
     display: flex;
     justify-content: space-between;
     width: 1600px;
@@ -77,9 +75,24 @@ ul a {
     background-position: center;
 }
 
+/*seção - Sneak Ultralight*/
+
+.parte01 button{
+    Width: 336px;
+    Height: 84px;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 40px;
+    background-image: url('../img/mais.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+
 
 /*seção - corra*/
 .fundo {
     background-image: url("../img/corredor.jpg");
+    height: 720px;
 }
 
