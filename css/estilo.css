@@ -1,6 +1,6 @@
 /*geral*/
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     width: 1600px;
     height: 92px;
@@ -19,7 +19,18 @@ ul a {
     text-decoration: none;
     color: #1F1F1F;
 }
+
+/*confg texto parágrafo*/
+p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
     
+
 /*header*/
 
 .header {
@@ -37,7 +48,7 @@ ul a {
     padding-top: 12px;
 }
 
-.lista_menu li{
+.lista_menu li {
     display: inline-block;
     align-items: middle;
     height: 28px;
@@ -49,7 +60,7 @@ ul a {
 .pesquisa input {
     display: inline-block;
     width: 235px;
-    height: 30px;
+    height: 52px;
     border-radius: 50px;
     border: 0;
     background: #F2F2F2;
@@ -68,31 +79,140 @@ ul a {
     border: 0;
     width: 52px;  
     height: 52px;
-    margin: 12px 72px 20px 12px;
+    margin: 20px 72px 20px 12px;
 /*config figure*/   
     background-image: url('../img/carrinho.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
-/*seção - Sneak Ultralight*/
 
-.parte01 button{
+/*seção 01 - Sneak Ultralight*/
+
+.seção01 {
+    display: inline-block;
+}
+
+.seção01 h2 {
+    width: 581px;
+    height: 220px;
+    font-size: 104px;
+    line-height: 104px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 24px;
+/*gradiente para letras*/
+    background: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.seção01 p {
+    margin-left: 80px;
+    width: 475px;
+    height: 84px;
+    margin-bottom: 108px;
+}
+
+.seção01 button {
     Width: 336px;
     Height: 84px;
-    border-radius: 20px;
-    text-align: left;
-    padding-left: 40px;
+    margin-left: 80px;
+    padding: 28px 32px;
+    border-radius: 12px;
+    border: 2px solid #1F1F1F;
+    background-color: white;
+/*config imagem*/
     background-image: url('../img/mais.png');
     background-repeat: no-repeat;
-    background-position: 10px center;
+    background-position: 275px center;
+/*config texto*/
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.tenis {
+    width: 500px;
+    height: 541px;
+    display:inline-block;
+    margin-top: 100px;
+    margin-right: 167px;
+}
+
+
+/*aside 02 - Tênis de corrida*/
+
+.tenis_corrida {
+    width: 1440px;
+    height: 767px;
+    margin: 200px 80px;
+    background-color: #F3F3F3;
+
+}
+
+.tenis_corrida h2 { 
+    padding-top: 64px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cores_tenis {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+} 
+
+.cores_tenis img {
+    height: 32px;
+    width: 32px;
+    padding-left: 20px;
+}
+
+.tenis_branco {
+    width: 464px;
+    height: 241.38px;
+    padding-left: 488px;
+}
+
+.elipse {
+    width: 341.18px;
+    height: 13.65px;
+    margin-left: 629px;
+    background: #B7B7B7;
+    opacity: 0.6;
+    filter: blur(50px);
+}
+
+.tenis_branco p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tenis_corrida button {
+    width: 336px;
+    height: 84px;
+    margin-left: 552px;
+    margin-top: 126px;
+    border-radius: 12px;
+/*config texto*/
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
 }
 
 
 
-/*seção - corra*/
+/*seção 04 - corra*/
 .fundo {
     background-image: url("../img/corredor.jpg");
+    width: 1600px;
     height: 720px;
+    left: 0px;
+    top: 4240px;
 }
 
