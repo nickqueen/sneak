@@ -4,8 +4,6 @@ body {
     font-size: 16px;
     width: 1600px;
     height: 92px;
-    left: 0px;
-    top: 0px;
     margin: 0 auto;
 }
 
@@ -53,7 +51,7 @@ p{
     align-items: middle;
     height: 28px;
     margin: 0 32px;
-    padding: 12px 12px; /*vai aumentar o espaço de clicque*/
+    padding: 12px 12px; /*vai aumentar o espaço de clique*/
     line-height: 28px;
 }
 
@@ -143,9 +141,9 @@ p{
 }
 
 
-/*aside 02 - Tênis de corrida*/
+/*seção 02 - aside - cores do tênis*/
 
-.tenis_corrida {
+.seção02 {
     width: 1440px;
     height: 767px;
     margin: 200px 80px;
@@ -153,7 +151,7 @@ p{
 
 }
 
-.tenis_corrida h2 { 
+.seção02 h2 { 
     padding-top: 64px;
     text-align: center;
     font-size: 40px;
@@ -178,7 +176,13 @@ p{
     padding-left: 488px;
 }
 
-.elipse {
+.tenis_branco p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.separador {
     width: 341.18px;
     height: 13.65px;
     margin-left: 629px;
@@ -187,13 +191,7 @@ p{
     filter: blur(50px);
 }
 
-.tenis_branco p {
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.tenis_corrida button {
+.seção02 button {
     width: 336px;
     height: 84px;
     margin-left: 552px;
@@ -205,14 +203,275 @@ p{
     text-align: center;
 }
 
+/*seção03 - caracteristicas do tênis - Leveza e agilidade | Sensação de estabilidade*/
+
+.seção03_row {
+    display: flex;
+    margin-top: 160px;
+    align-content: space-between;
+}
+
+.seção03_row h3{
+    margin-left: 80px;
+    font-size: 64px;
+    /*gradiente - título*/
+    background: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.seção03_row p{
+    width: 581px;
+    height: 112px;
+    margin-left: 80px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.seção03_row_img{
+    margin-left: 155px;
+    width: 704px;
+    height: 600px;
+}
+
+/*seção03 - caracteristicas do tênis - Amortecimento*/
+
+.seção03_reverse{
+    display: flex;
+    margin-top: 160px;
+    flex-direction: row-reverse;
+    align-content: space-between;
+}
+
+.seção03_reverse h3{
+    margin-right: 80px;
+    font-size: 64px;
+    /*gradiente - título*/
+    background: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.seção03_reverse p{
+    width: 581px;
+    height: 112px;
+    margin-right: 80px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.seção03_reverse_img{
+    margin-right: 155px;
+    width: 704px;
+    height: 600px;
+}
 
 
-/*seção 04 - corra*/
-.fundo {
+/*seção 04 - Corra como se o mundo dependesse de você*/
+.seção04 {
     background-image: url("../img/corredor.jpg");
+    background-repeat: no-repeat;
     width: 1600px;
     height: 720px;
-    left: 0px;
-    top: 4240px;
+    margin-top: 200px;
+    display: flex;
+    align-content: center;
+}
+
+.seção04 h2 {
+    color: #FFFFFF;
+    font-size: 104px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: -0.02em;
+    margin-left: 22px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.seção04 img {
+    width: 44px;
+    height: 45px;
+    margin-left: 24px;
+    margin-top: 47px;
+}
+
+.seção04 h3 {
+    color: #FFFFFF;
+    font-size: 104px;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 27px;
+    margin-bottom: 0px;
+}
+
+/*seção 05 - Mapa | Formulário*/
+
+.seção05 {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.seção05_img {
+    width: 827px;
+    height: 838px;
+    left: 80px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.seção05_form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 650px;
+    height: 838px;
+    background: #F3F3F3;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.seção05_form h3{
+    color: #1F1F1F;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+.seção05_form input[type="text"], [type="email"] {
+    width: 517px;
+    height: 76px;    
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    margin-left: 48px;
+    margin-bottom: 24px;
+    outline: none;
+    /*texto*/
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: #969696;
+    padding-left: 28px;
+}
+
+.seção05_form input[type="text"]::placeholder, input[type="email"]::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: #969696;
+}
+
+.seção05_form textarea {
+    width: 517px;
+    height: 260px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    border: none;
+    margin-left: 48px;
+    outline: none;
+/*texto*/
+    padding-left: 28px;
+    padding-top: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #969696;
+}
+
+.seção05_form input[type="checkbox"] {
+    width: 28px;
+    height: 28px;
+    border: 2px solid #D2D2D2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 48px;
+    vertical-align: -8px;
+}
+
+.seção05_checkbox {
+    display: inline-block;
+    color: #969696;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.seção05 input[type="submit"] {
+    width: 550px;
+    height: 84px;
+    border-radius: 12px;
+    outline: none;
+    margin-left: 48px;
+/*texto*/
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-align: center;
+}
+
+.rodapé {
+    height: 306px;
+    margin-top: 160px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 56px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.rodapé h2 {
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: left;
+}
+
+.rodapé li {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-left: -40px;
+}
+
+.rd ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.rd li{
+   background-color: black;
+   width: 33px;
+   height: 33px;
+   border-radius: 50px;
+}
+
+.assinatura {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.assinatura h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.assinatura h3{
+    font-size: 25px;
+    font-weight: 1000;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
