@@ -447,11 +447,19 @@ p{
     justify-content: space-between; 
 }
 
-.rd li{
-   background-color: black;
-   width: 33px;
+.facebook {
+    width: 33px;
    height: 33px;
-   border-radius: 50px;
+}
+
+.twitter {
+    width: 33px;
+   height: 33px;
+}
+
+.instagram {
+    width: 33px;
+   height: 33px;
 }
 
 .assinatura {
