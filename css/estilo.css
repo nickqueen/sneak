@@ -82,6 +82,7 @@ p{
     background-image: url('../img/carrinho.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #F2F2F2;
 }
 
 
@@ -126,6 +127,7 @@ p{
     background-image: url('../img/mais.png');
     background-repeat: no-repeat;
     background-position: 275px center;
+    background-color: #F2F2F2;
 /*config texto*/
     font-size: 20px;
     font-weight: 700;
@@ -417,6 +419,7 @@ p{
 }
 
 .rodapé {
+    width: 1600px;
     height: 306px;
     margin-top: 160px;
     background-color: #F3F3F3;
