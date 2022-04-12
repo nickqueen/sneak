@@ -34,7 +34,7 @@ p{
 .header {
     display: flex;
     justify-content: space-between;
-    width: 1600px;
+    width: 1600;
     height: 92px;
 }
 
@@ -279,7 +279,7 @@ p{
 .seção04 {
     background-image: url("../img/corredor.jpg");
     background-repeat: no-repeat;
-    width: 1600px;
+    width: 100%;
     height: 720px;
     margin-top: 200px;
     display: flex;
@@ -419,15 +419,14 @@ p{
 }
 
 .rodapé {
-    width: 1600px;
+    width: 100%;
     height: 306px;
     margin-top: 160px;
     background-color: #F3F3F3;
     display: flex;
-    justify-content: space-between; 
+    justify-content: center;
+    gap: 250px;
     padding-top: 56px;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 .rodapé h2 {
@@ -444,7 +443,7 @@ p{
     margin-left: -40px;
 }
 
-.rd ul {
+.RS ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
@@ -452,7 +451,7 @@ p{
 
 .instagram {
     width: 33px;
-   height: 33px;
+    height: 33px;
 }
 
 .twitter {
@@ -480,10 +479,10 @@ p{
     margin-bottom: auto;
 }
 
-.assinatura h3{
-    font-size: 25px;
-    font-weight: 1000;
-    margin-top: auto;
-    margin-bottom: auto;
+.final {
+    text-align: center;
+    width: 100%;
+    height: 68px;
+    background-color: #F2F2F2;
 }
 
