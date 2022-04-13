@@ -447,26 +447,43 @@ p{
     margin-left: -40px;
 }
 
-.RS ul {
+.RS {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
 }
 
-.instagram {
+.IG {
     width: 33px;
     height: 33px;
+    background-color: #1F1F1F;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+}
+    
+
+.FB {
+    width: 33px;
+    height: 33px;
+    background-color: #1F1F1F;
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
 }
 
-.twitter {
+.TT {
     width: 33px;
-   height: 33px;
+    height: 33px;
+    background-color: #1F1F1F;
+    background-image: url(../img/Twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
 }
 
-.facebook {
-    width: 33px;
-   height: 33px;
-}
 
 .assinatura {
     padding-top: 5px;
