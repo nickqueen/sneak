@@ -90,8 +90,7 @@ p{
 
 .seção01 {
     display: inline-block;
-    margin-left: 200px;
-    
+    margin-left: 50px;    
 }
 
 .seção01 h2 {
@@ -149,7 +148,7 @@ p{
 .seção02 {
     width: 1440px;
     height: 767px;
-    margin: 200px 250px;
+    margin: 200px 100px;
     background-color: #F3F3F3;
 
 }
