@@ -124,6 +124,7 @@ p{
     padding: 28px 32px;
     border-radius: 12px;
     border: 2px solid #1F1F1F;
+    background-color: white;
 /*config imagem*/
     background-image: url('../img/mais.png');
     background-repeat: no-repeat;
@@ -224,7 +225,7 @@ p{
     -webkit-background-clip: text;
 }
 
-.seção03_row p{
+.seção03_row p {
     width: 581px;
     height: 112px;
     margin-left: 80px;
@@ -234,7 +235,7 @@ p{
     line-height: 28px;
 }
 
-.seção03_row_img{
+.seção03_row_img {
     margin-left: 155px;
     width: 704px;
     height: 600px;
@@ -280,11 +281,12 @@ p{
 .seção04 {
     background-image: url("../img/corredor.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 720px;
     margin-top: 200px;
     display: flex;
-    align-content: center;
+    align-content: ;
 }
 
 .seção04 h2 {
@@ -415,6 +417,7 @@ p{
     border-radius: 12px;
     outline: none;
     margin-left: 48px;
+    background-color: #F3F3F3;
 /*texto*/
     font-weight: bold;
     font-size: 20px;
