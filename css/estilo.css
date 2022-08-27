@@ -4,7 +4,6 @@ body {
     font-size: 16px;
     width: 100%;
     margin: 0 auto;
-
 }
 
 ul {
@@ -211,6 +210,7 @@ p{
 .seção03_row {
     display: flex;
     margin-top: 160px;
+    flex-direction: row;
     align-content: space-between;
 }
 
